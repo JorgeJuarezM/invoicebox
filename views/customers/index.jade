@@ -1,0 +1,20 @@
+extends ../layout
+block body
+  div(ng-controller="customersHomeController as c")
+    .page-header
+      h3 Catalogo Clientes
+
+
+    table.table
+      thead
+        tr
+          th No Cliente
+          th RFC
+          th Nombre / Razon Social
+          th Contacto
+      tbody
+        tr(ng-repeat="c in customers")
+          td {{ c.numeroCliente }}
+          td {{ c.rfc }}
+          td {{ c.nombre }}
+          td {{ c.nombreContacto }}
