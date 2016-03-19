@@ -30,7 +30,7 @@ html
           + Use a different or additional preprocessor, like SASS, SCSS or Stylus
 
     // STYLES
-    link(rel="stylesheet", href="/styles/importer.css")
+    
     // STYLES END
 
     block styles
@@ -59,7 +59,7 @@ html
             stringfile before they're served.
 
     // TEMPLATES
-
+    
     // TEMPLATES END
 
     //-
@@ -82,7 +82,11 @@ html
           + Import scripts from other directories
           + Use a different preprocessor, like TypeScript
 
+
+    script(src="/vendor/jquery/dist/jquery.min.js")
+    script(src="/vendor/angular/angular.min.js")
+
     // SCRIPTS
-    script(src="/js/dependencies/sails.io.js")
+    script(src="/min/production.min.js")
     // SCRIPTS END
 

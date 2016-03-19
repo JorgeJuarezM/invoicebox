@@ -1,0 +1,23 @@
+{
+  "name": "cfdi",
+  "description": "a Sails application",
+  "main": "app.js",
+  "authors": [
+    "root"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.2",
+    "angular": "^1.5.2"
+  }
+}
